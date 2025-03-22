@@ -12,7 +12,7 @@ def soma(e, p):
     :param p: lista de pesos (np.array)
     :return: soma ponderada
     """
-    return np.dot(e, p)
+    return e.dot(p)
 
 
 s = soma(entradas, pesos)
